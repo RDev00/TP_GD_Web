@@ -45,7 +45,7 @@
     
     <button type="submit" class="casillaenv"><img src="imagenes/correo.png" class="icono"><p class="texto">Enviar</p></button>
     
-    <input name="_next" value="https://rdev00.github.io/TP_GD_Web/">
+    <input hidden name="_next" value="https://rdev00.github.io/TP_GD_Web/">
   </form>
   
   <section class="seccion">
@@ -77,5 +77,15 @@
   <p class="texto">© Página de libre uso</p>
   <p class="texto">Página web hecha si fines de lucro, si gustas apoyarme, puedes hacerlo en cuanto ponga la opción o ir a mi canal de <a href="https://youtube.com/@rd77_gd?si=2PF_Aiu1WcufwU58" class="texto">YouTube</a> a ayudarme a llegar a los 500 subs :D</p>
 </footer>
+
+<script>
+  const formulario = document.getElementById('formulario');
+  
+  formulario.addEventListener('submit', e => {
+    e.preventDefault();
+    
+    formulario.reset();
+  });
+</script>
 
 </html>
