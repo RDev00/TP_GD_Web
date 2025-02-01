@@ -36,12 +36,12 @@ li { list-style-type: none }
 .opcionnav {
   width: 10%;
   height: auto;
-  max-width: 142px;
-  max-height: 142px;
+  max-width: 50px;
+  max-height: 50px;
 }
 .opcionnav img {
   width: 100%;
-  max-width: 142px;
+  max-width: 50px;
 }
 
 .titulo, .subtitulo, .texto {
